@@ -63,15 +63,6 @@ if(!isset($_SESSION['id']))
                      <a href="home.php">Back to home page</a> 
                 </div>
             </div>
-            <div class="row">
-                <!--<div class="col-12">
-                    <form action="results.php" method="POST" class ='search'>
-                        <input type="text" name="search" value="" placeholder="Search...">
-                        <button type="submit" name="submit-serach" class="buttonSearch"> Search </button>
-                    </form>
-                </div>-->
-            </div>
-
         </div>
     </body>
 </html>
