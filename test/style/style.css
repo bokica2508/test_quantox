@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.form
+{
+  width:40%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+}
+.form input[type=text], input[type=password]
+{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.form input[type=text]:focus
+{
+     border: 2px solid #243665;
+     outline: none;
+}
+.form input[type=submit]
+{
+    margin-left: 140px;
+}
+.buttonSubmit {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    margin-left: 5px;
+  }
+  
+  .buttonSubmit:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+.col-1
+{
+  width:8.33%;
+}
+.col-2 
+{
+  width:16.66%;
+  float: left;
+}
+.col-3 
+{
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+
+}
+.col-4 
+{
+  width:33.32%;
+  float: left;
+}
+.col-5
+{
+  width:41.65%;
+}
+.col-6 
+{
+  width:50%;
+  float: left;
+}
+.col-7 
+{
+  width:58.31%;
+}
+.col-8 
+{
+  width:66.64%;
+  float: left;
+}
+.col-9 
+{
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  padding-bottom:5px;
+}
+.col-10 
+{
+  width:83.33%;
+}
+.col-11 
+{
+  width:91.63%;
+}
+.col-12 
+{
+  width:100%;
+  float: left;
+  font-size: 20px;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.search
+{
+    width: 33.33%;
+    margin-left:200px;
+    margin-top: 30px;
+}
+.search input[type=text]
+{
+    margin-left: 200px;
+}
+.buttonSearch
+{
+    margin-top: 30px;
+    margin-left: 200px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #3688f4;
+
+}
+.buttonSearch:hover {
+    background-color: #022585;
+    color: white;
+  }
+h1, h2, h3
+{
+    text-align: center;
+}
+#confirm
+{
+    text-align: center;
+    color: red;
+}
+.results
+{
+    list-style-type: none;
+    width: 100%;
+    margin: 30px 50px 0 50px ;
+    padding: 0;
+}
+.results li:hover
+{
+    color:blue;
+    
+}
+.meni
+{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.meni li
+{
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    background-color:#243665;
+    color: white;
+}
+.meni a:link
+{
+    text-decoration: none;
+    
+}
+.meni a
+{
+    color: aliceblue;
+}
+.meni a:visited
+{
+    text-decoration: none;
+}
+.meni a:link
+{
+    text-decoration: none;
+    
+}
+.meni a
+{
+    color: aliceblue;
+}
+.meni a:visited
+{
+    text-decoration: none;
+}
+#back
+{
+    margin-left: 450px;
+  
+}
+
